@@ -1,4 +1,5 @@
 class SpaceAge
+
   planets = {
       :earth => 1.0,
       :mercury => 0.2408467,
@@ -9,6 +10,7 @@ class SpaceAge
       :uranus => 84.016846,
       :neptune => 164.79132
   }
+
   def initialize(seconds)
     @seconds = seconds
   end
